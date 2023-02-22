@@ -5,7 +5,7 @@ The Web app for this project was Developed by Jayapriyan , Hariharan and Sulaima
 
 To run this code download this git folder and run it in VS code
 
-About Project:
+# About Project:
 
 Asthma Risk Prediction project analyzes risk in your current area
 
