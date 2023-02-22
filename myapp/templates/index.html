@@ -1,0 +1,51 @@
+<body>
+	<div>
+		<p id="intro">Predict your sustainabilitiy in present location by using the form below. click the Predict button to display your Safety Check result.</p>
+		<form action="{{ url_for('weather_data') }}" method="post" >
+			<fieldset>
+			<legend>Asthma Risk Prediction</legend>
+                <label for="city">Enter City:</label>
+				<input type="text" name="city" value={{city_}} id="city" ></input>
+				<br><br>
+                <input type="submit" name="Fetch" value="Fetch weather data"></input>
+                <br>
+				<label for="temperature">Temperature:</label>
+				<input type="text" name="temperature" value= {{temperature}} id="temperature" readonly="readonly"></input>
+				<br><br>
+                <label for="hum">Humidity:</label>
+				<input type="text" name="hum" value= {{humidity}} id="hum" readonly="readonly"></input>
+				<br><br>
+                <label for="pm2.5">PM 2.5:</label>
+				<input type="text" name="pm2.5" value= {{pm2_}} id="pm2.5" readonly="readonly"></input>
+				<br><br>
+				<label for="pm10">PM 10:</label>
+				<input type="text" name="pm10" value= {{pm10_}} id="pm10" readonly="readonly"></input>
+				<br><br>
+			</fieldset>
+		</form>
+		<form action="{{ url_for('predict') }}" method="post">
+			<fieldset>
+                <label for="gender">Enter Gender (1-Male/0-Female):</label>
+				<input type="text" name="gender" value={{gender_}} id="gender"></input>
+				<br><br>
+                <input type="submit" name="Predict" value="Predict" ></input>
+                <br><br>
+                <label for="predicted_pefr">Predicted PEFR:</label>
+				<input type="text" name="predicted_pefr" value={{predicted_pefr_}} id="predicted_pefr" readonly="readonly"></input>
+				<br><br>
+			</fieldset>
+		</form>
+
+		<form action="{{ url_for('safety_check') }}" method="post">
+			<fieldset>
+                <label for="actual_pefr">Actual PEFR:</label>
+				<input type="text" name="actual_pefr" value={{actual_pefr_}} id="actual_pefr"></input>
+				<br><br>
+                <input type="submit" name="check" value="Check safety" ></input>
+                <br><br>
+				<label for="safety" id="safety_label">Your Safety Parameter is:</label>
+				<input type="text" name="safety" value={{safety}} id="safety" readonly="readonly"></input>
+			</fieldset>
+		</form>
+	</div>
+</body>
