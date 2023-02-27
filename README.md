@@ -38,4 +38,5 @@ Note: Enter the city in small case and specify 0 for Male and 1 for Female![Scre
 
 # CONTACT
 E-Mail : sulaiman11faris@gmail.com
+
           jayapriyan11802@gmail.com
