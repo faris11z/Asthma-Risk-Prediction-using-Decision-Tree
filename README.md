@@ -34,3 +34,8 @@ The Data model is trained repeatedly, Hence uncomment the joblib to load the mod
 
 Note: Enter the city in small case and specify 0 for Male and 1 for Female![Screenshot (978)](https://user-images.githubusercontent.com/112737359/221486694-00ff619f-9da7-4bb1-b7a2-7f4f0370c8e2.png)
 ![Screenshot (980)](https://user-images.githubusercontent.com/112737359/221486711-af4994c1-52b9-4a48-9c83-37a0df5888a0.png)
+
+
+# CONTACT
+E-Mail : sulaiman11faris@gmail.com
+          jayapriyan11802@gmail.com
