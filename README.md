@@ -29,3 +29,5 @@ To specify Gender Enter 1 for Male, 2 for Female
 Actual PEFR of the patient should be measured and entered
 
 The Decision Tree Classifier Algorithm will result the predicted PEFR and the risk in that particular area
+
+We have developed a web application for the code using JavaScript, HTML and CSS
